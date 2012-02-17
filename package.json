@@ -1,7 +1,7 @@
 {
   "name": "htmlslice",
   "description": "An HTML-aware String#slice.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/cowboy/htmlslice",
   "author": {
     "name": "\"Cowboy\" Ben Alman",

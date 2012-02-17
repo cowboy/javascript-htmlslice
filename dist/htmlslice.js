@@ -1,4 +1,4 @@
-/*! htmlslice - v0.1.0 - 2/17/2012
+/*! htmlslice - v0.1.1 - 2/17/2012
 * https://github.com/cowboy/htmlslice
 * Copyright (c) 2012 "Cowboy" Ben Alman; Licensed MIT */
 
@@ -6,7 +6,7 @@
 
   // Match a tag or character in such a way that open tags, close tags, self-
   // closing tags or characters can be differentiated from one another.
-  var matchComplex = /<(\/)?([^ \/>]*).*?(\/)?>|./;
+  var matchComplex = /<(\/)?([^ \/>]*).*?(\/)?>|[\s\S]/;
 
   // Match a tag in such a way that self-closing tags can be differentiated from
   // open or close tags.

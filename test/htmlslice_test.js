@@ -109,6 +109,14 @@ exports['htmlslice'] = {
     test.equal(h.slice(5, 7), '<a href="#"><b>ar</b></a>', 'should return the proper substring.');
     test.equal(h.slice(6, 7), '<a href="#"><b>r</b></a>', 'should return the proper substring.');
 
+    h = htmlSlice('<a href="#"><i>foo</i>\nbar</a>');
+    test.equal(h.slice(0, 4), '<a href="#"><i>foo</i>\n</a>', 'should return the proper substring.');
+    test.equal(h.slice(0, 7), '<a href="#"><i>foo</i>\nbar</a>', 'should return the proper substring.');
+    test.equal(h.slice(1, 4), '<a href="#"><i>oo</i>\n</a>', 'should return the proper substring.');
+    test.equal(h.slice(1, 7), '<a href="#"><i>oo</i>\nbar</a>', 'should return the proper substring.');
+    test.equal(h.slice(3, 4), '<a href="#">\n</a>', 'should return the proper substring.');
+    test.equal(h.slice(3, 7), '<a href="#">\nbar</a>', 'should return the proper substring.');
+
     h = htmlSlice('sample <a href="#">link <br/><i>test</i></a> foo<br/>bar');
     test.equal(h.slice(0, 1), 's', 'should return the proper substring.');
     test.equal(h.slice(0, 7), 'sample ', 'should return the proper substring.');

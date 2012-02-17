@@ -63,7 +63,9 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 _Also, please don't edit files in the "dist" subdirectory as they are generated via grunt. You'll find source code in the "lib" subdirectory!_
 
 ## Release History
-_(Nothing yet)_
+
+* 0.1.1 - 2012/02/17 - Fixing minor issue with `\n` characters.
+* 0.1.0 - 2012/02/17 - Initial Release
 
 ## License
 Copyright (c) 2012 "Cowboy" Ben Alman  
