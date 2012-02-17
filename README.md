@@ -58,14 +58,15 @@ h.slice(16, 23) // '<a href="#"><i>t</i></a> foo<br/>b'
 Create a `new HtmlSlice(htmlString)` object. Use its `.length` property and `.slice(begin [, end])` method.
 
 ## Examples
-You can take a look at the [unit tests](https://github.com/cowboy/javascript-htmlslice/blob/master/test/htmlslice_test.js), or this [animated jQuery example](http://jsfiddle.net/cowboy/2SCRK/);
+You can take a look at the [unit tests](https://github.com/cowboy/javascript-htmlslice/blob/master/test/htmlslice_test.js), or this [animated jQuery example](http://jsfiddle.net/cowboy/2SCRK/).
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/cowboy/grunt).
 
 _Also, please don't edit files in the "dist" subdirectory as they are generated via grunt. You'll find source code in the "lib" subdirectory!_
 
-## Release History
+## Release History ##
+
 * 0.1.1 - 2012/02/17 - Fixing minor issue with `\n` characters.
 * 0.1.0 - 2012/02/17 - Initial Release
 
