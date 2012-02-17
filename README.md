@@ -19,8 +19,8 @@ h.slice(16, 23) // '<a href="#"><i>t</i></a> foo<br/>b'
 ### In the browser
 Download the [production version][min] or the [development version][max].
 
-[min]: https://raw.github.com/cowboy/htmlslice/master/dist/htmlslice.min.js
-[max]: https://raw.github.com/cowboy/htmlslice/master/dist/htmlslice.js
+[min]: https://raw.github.com/cowboy/javascript-htmlslice/master/dist/htmlslice.min.js
+[max]: https://raw.github.com/cowboy/javascript-htmlslice/master/dist/htmlslice.js
 
 In your web page:
 
