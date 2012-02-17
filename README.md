@@ -67,8 +67,8 @@ _Also, please don't edit files in the "dist" subdirectory as they are generated 
 
 ## Release History
 
- * 0.1.1 - 2012/02/17 - Fixing minor issue with `\n` characters.
- * 0.1.0 - 2012/02/17 - Initial Release
+* v0.1.1 - 2012/02/17 - Fixing minor issue with `\n` characters.
+* v0.1.0 - 2012/02/17 - Initial Release
 
 ## License
 Copyright (c) 2012 "Cowboy" Ben Alman  
