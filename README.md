@@ -55,7 +55,9 @@ h.slice(16, 23) // '<a href="#"><i>t</i></a> foo<br/>b'
 ```
 
 ## Documentation
-Create a `new HtmlSlice(htmlString)` object. Use its `.length` property and `.slice(begin [, end])` method.
+Create a `new HtmlSlice(htmlString)` object. The `new` is optional. Use its `.length` property and `.slice(begin [, end])` method like you would a [String](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/slice).
+
+_Note: tags must be balanced, and self-closing tags must end in `/>`._
 
 ## Examples
 You can take a look at the [unit tests](https://github.com/cowboy/javascript-htmlslice/blob/master/test/htmlslice_test.js), or this [animated jQuery example](http://jsfiddle.net/cowboy/2SCRK/).
